@@ -1,17 +1,46 @@
-body{
-    margin: 0px;
-}
-.nav{
-    height: 80px;
-    background-color: black;
+.box{
+    width : 1200px;
+    height : 498px;
+    background-color: #1b1b1b;
 }
 
-.main{
-    height: 969px;
-    background-color: rgb(41, 65, 171);   
+.ground{
+    margin : 0 auto;
 }
 
-.footer{
-    height: 530px;
-    background-color: black;
+.poster{
+    width: 240px;
+    height: 360px;
+}
+
+.title-loc{
+    margin : 0 0 20px;
+}
+
+.title-style{
+    font-family: NotoSans,sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+
+.next{
+    float: right;
+    top: 7px;
+    right: 0;
+    padding: 5px 20px 5px 0;
+    font-size: 16px;
+    line-height: 24px;
+    background-size: 16px auto;
+   
+}
+
+.next-page{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+.poster-line{
+    display: inline-block;
+    text-align: center;
 }
